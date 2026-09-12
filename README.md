@@ -18,3 +18,21 @@ python -m pip install --upgrade pip setuptools wheel
     main.py
     dvc.yaml
     app.py 
+
+
+
+EvaluationConfig
+       ↓
+mlflow_uri
+       ↓
+set_tracking_uri()
+       ↓
+start_run()
+       ↓
+log_params()
+       ↓
+log_metrics()
+       ↓
+log_model()
+       ↓
+DagsHub
