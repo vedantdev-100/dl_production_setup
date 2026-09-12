@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Pro-3/Desktop/dl_production/mlruns/0/61087da46fb4463797f85b7e41619316/artifacts
+end_time: 1789216762995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 61087da46fb4463797f85b7e41619316
+run_name: powerful-goose-531
+run_uuid: 61087da46fb4463797f85b7e41619316
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1789216752911
+status: 4
+tags: []
+user_id: Pro-3
