@@ -4,3 +4,17 @@ Production grade folder structure that scales in real world for deep learning ta
 # after env creation run this first
 python -m pip install --upgrade pip setuptools wheel
 # add setup.py > code
+
+
+
+# Workflows [Update the files in following order]
+    config.yaml
+    secrets.yaml [Optional]
+    params.yaml
+    entity
+    configuration manager in src config
+    components
+    pipeline
+    main.py
+    dvc.yaml
+    app.py
