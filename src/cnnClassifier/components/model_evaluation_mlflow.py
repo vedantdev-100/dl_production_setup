@@ -115,13 +115,18 @@ class Evaluation:
     #             )
     
     def log_into_mlflow(self):
+        try:
+            import dagshub
+            dagshub.init(repo_owner='ivedant.100', repo_name='dl_production_setup', mlflow=True)
+        except Exception:
+            pass
 
         mlflow.set_tracking_uri(self.config.mlflow_uri)
 
         print("MLflow URI:", mlflow.get_tracking_uri())
         print("MLflow version:", mlflow.__version__)
 
-        mlflow.set_experiment("Kidney CT Scan")
+        mlflow.set_experiment("Kidney CT Scan Classification")
 
         with mlflow.start_run():
 
